@@ -1,0 +1,10 @@
+name: testback deployment
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  build:
+    name: testback build & deploy
+    runs-on: ubuntu-latest
